@@ -26,7 +26,6 @@ com\portfolio\marcosaa\Security\MainSecurity.class
 com\portfolio\marcosaa\Entity\Persona.class
 com\portfolio\marcosaa\MarcosaaApplication.class
 com\portfolio\marcosaa\Service\Seducacion.class
-com\portfolio\marcosaa\WebConfig.class
 com\portfolio\marcosaa\Interface\IPersonaService.class
 com\portfolio\marcosaa\Service\SExperiencia.class
 com\portfolio\marcosaa\Repository\REducacion.class
