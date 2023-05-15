@@ -67,6 +67,12 @@ public class PersonaController {
                 
     }*/
     
+    /*@PostMapping("/personas/crear")
+    public String createPersona(@RequestBody Persona persona){
+        personaService.save(persona);
+        return "La persona fue creada correctamente";
+    }*/
+    
     @PutMapping("/update/{id}")
     public ResponseEntity<?> update(@PathVariable("id") int id, @RequestBody dtoPersona dtopersona){
         if(!personaService.existsById(id)){
